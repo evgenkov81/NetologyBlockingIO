@@ -25,7 +25,7 @@ public class Server {
 
                     } else if (number == 1) {
                         out.println(number + " term of the Fibonacci series is 1 ");
-                    }else if(number==2){
+                    } else if (number == 2) {
                         out.println(number + " term of the Fibonacci series is 1 ");
                     } else {
                         long a = 1;
@@ -43,7 +43,7 @@ public class Server {
                 ex.printStackTrace();
             }
         }
-
-
     }
-}
+}//The BlockingIO interaction method was chosen because we cannot
+// start the calculation of the sequence
+// until we know the number up to which we should count.
